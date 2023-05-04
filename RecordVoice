@@ -23,3 +23,4 @@ sound_file.setsampwidth(audio.get_sample_size(pyaudio.paInt16))
 sound_file.setframerate(44100)
 sound_file.writeframes(b''.join(frames))
 sound_file.close()
+ # you can execute from PC's cmd
